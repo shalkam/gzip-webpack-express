@@ -1,0 +1,35 @@
+{
+  "name": "gzip-webpack-express",
+  "version": "1.0.0",
+  "description": "An example for creating and serving gzipped files using webpack 2 and express",
+  "scripts": {
+    "start": "node .",
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "main": "index.js",
+  "author": "Mostafa Sholkami",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "bootstrap": "^3.3.7",
+    "compression-webpack-plugin": "^0.4.0",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "gulp": "^3.9.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.0"
+  }
+}
